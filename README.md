@@ -1,4 +1,4 @@
-ique90# Fundamentos de contenerización
+# Fundamentos de contenerización
 ## Actividad 2. Modificar un sitio web en ejecución
 
 Paso 1. Partimos de la imagen construida en la acitividad anterior:
