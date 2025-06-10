@@ -39,4 +39,36 @@ Paso 4. Se pide modificar el fichero index.html desde el host usando visual stud
 
 Paso 5. Se han producido cambios, http://localhost:8080
 
+## Crear y subir imagen a dockerHub
+
+- Creamos la imagen del contenedor editado y comprobamos que se ha creado
+```
+sudo docker commit 124FCProyecto2 124fcproyecto2:1.0
+docker images
+```
+- Guardamos la imagen en un archivo.tar
+```
+sudo docker save -o 124fcproyecto2version2.tar 124fcproyecto2:1.0
+```
+- Iniciamos sesión en dockerHub con el navegador
+```
+sudo docker login
+```
+- Creamos el repositorio 124fcproyecto2 en dockerHub desde su web
+- Creamos una etiqueta a la imagen que vamos a subir
+```
+sudo docker tag 124fcproyecto2:1.0 enriquenieto90/124fcproyecto2:1.0
+```
+- Subimos la imagen a dockerHub
+```
+sudo docker push enriquenieto90/124fcproyecto2:1.0
+```
+- Enlace a la imagen del proyecto2 en dockerHub
+```
+
+```
+
+
+
+
 
