@@ -57,15 +57,15 @@ sudo docker login
 - Creamos el repositorio 124fcproyecto2 en dockerHub desde su web
 - Creamos una etiqueta a la imagen que vamos a subir
 ```
-sudo docker tag 124fcproyecto2:1.0 enriquenieto90/124fcproyecto2:1.0
+sudo docker tag 124fcproyecto2:1.0 enrique90/proyecto2
 ```
 - Subimos la imagen a dockerHub
 ```
-sudo docker push enriquenieto90/124fcproyecto2:1.0
+sudo docker push enrique90/proyecto2
 ```
 - Enlace a la imagen del proyecto2 en dockerHub
 ```
-
+https://hub.docker.com/repositories/enrique90
 ```
 
 
